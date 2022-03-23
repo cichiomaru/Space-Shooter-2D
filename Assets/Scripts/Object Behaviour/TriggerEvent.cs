@@ -7,18 +7,12 @@ using UnityEngine.Events;
 public class TriggerEvent : MonoBehaviour
 {
     public string targetTag;
-
     public UnityEvent OnTrigger;
     public UnityEvent<GameObject> OnTriggerWithGameobject;
 
     void Start()
     {
-        
-    }
 
-    void Update()
-    {
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {

@@ -42,7 +42,7 @@ public class InvincibleFrame : MonoBehaviour
         while (timer > 0) {
             sr.color = hitColor;
             yield return new WaitForSeconds(0.1f);
-            sr.color = default;
+            sr.color = defaultColor;
             yield return new WaitForSeconds(0.1f);
         }
         sr.color = defaultColor;

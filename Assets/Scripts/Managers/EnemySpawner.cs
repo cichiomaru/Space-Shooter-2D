@@ -13,6 +13,7 @@ public class EnemySpawner : MonoBehaviour
     {
         enemyList = new List<GameObject>();
 
+        //Thread
         StartCoroutine(spawner());
     }
 
@@ -59,5 +60,5 @@ public class EnemySpawner : MonoBehaviour
             Destroy(go);
         }
         enemyList.Clear();
-    }
+    }    
 }
